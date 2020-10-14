@@ -15,10 +15,8 @@ describe("About component", () => {
 describe("About component", () => {
   // First Test
   it('renders', () => {
-  render(<Nav
-    categories={categories}
-    setCurrentCategory={mockSetCurrentCategory}
-    currentCategory={mockCurrentCategory}
+  render(<About
+    
   />);
 })
   });
@@ -30,5 +28,4 @@ describe("About component", () => {
 
   });
 
-});
 
