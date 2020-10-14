@@ -14,8 +14,13 @@ describe("About component", () => {
 
 describe("About component", () => {
   // First Test
-  it("renders", () => {
-    render(<About />);
+  it('renders', () => {
+  render(<Nav
+    categories={categories}
+    setCurrentCategory={mockSetCurrentCategory}
+    currentCategory={mockCurrentCategory}
+  />);
+})
   });
   // Second Test
   it('matches snapshot DOM node structure', () => {
