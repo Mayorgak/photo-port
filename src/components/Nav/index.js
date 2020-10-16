@@ -1,5 +1,4 @@
 
-
 import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
@@ -30,11 +29,7 @@ useEffect(() => {
         </a>
       </h2>
       <nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+    
       >
         <ul className="flex-row">
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
